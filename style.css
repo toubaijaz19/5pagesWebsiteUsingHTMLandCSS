@@ -1,0 +1,142 @@
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 5px;
+    background: cornflowerblue;
+}
+.navBar  li{
+      display: inline;
+} 
+#active, .active{
+    background: black;
+}
+ol li a{
+    text-decoration: none;
+    padding: 5px;
+}
+ol li {
+    margin: 5px;
+}
+ol li a:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    font-weight: 500;
+}
+ul li a:hover {
+    background-color: #111;
+    
+  }
+.fontSize{
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+}
+h4{
+    font-weight: normal;
+    color: grey;
+}
+.talent{
+    margin-bottom: 100px;
+}
+.rightFloat{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 86px;
+}
+  
+  .imageToobi{
+      float: right;
+      border-radius: 50%;
+  }
+  .socialAccounts{
+      display: flex;
+  }
+  .find{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .imageProperty{
+      margin-left: 20px;
+  }
+footer{
+    background: cornflowerblue;
+    padding: 10px 5px;
+    margin-top: 140px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+p{
+    font-size: larger;
+}
+.Contacts{
+    font-size: 50px;
+}
+@media (max-width: 575px){
+    /* Index.html */
+    .flex-container{
+        margin-top: 30px;
+    }
+    .imageToobi{
+        width: 300px;
+        height: 300px;
+        float: none;
+    }
+    h1, h2{
+        font-size: 20px;
+    }
+    ul li a,p{
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    .socialAccounts{
+        padding-bottom: 50px;
+    }
+    .socialAccounts a img{ 
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+    }
+    .talent{
+        margin-bottom: 50px;
+    }
+    /*About.html*/
+    .marginMob{
+        margin: 20px;
+    }
+    /*blog.html*/
+    .socialAccounts p{
+        font-size: 15px;
+    }
+    .mediumAccount a img{
+        width:80px; 
+        height:40px;
+        margin-left: 5px;
+    }
+    /*Contact.html*/
+    .Contacts{
+        font-size: 20px;
+    }
+    footer label{
+        font-size: 13px;
+    }
+}

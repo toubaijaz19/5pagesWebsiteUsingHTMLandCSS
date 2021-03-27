@@ -1,0 +1,19 @@
+h1{
+    margin-left: 20px;
+}
+.galleryContainer{
+    margin: 40px;
+}
+th{
+    margin: 10px;
+    border-radius: 2px;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 575px) {
+    .flexContainer {
+      flex-direction: column;
+    }
+}
